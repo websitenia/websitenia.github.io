@@ -1,0 +1,197 @@
+<body>
+    <div id="header-wrapper">
+        <div class="pc-bg"></div>
+        <div class="row">
+            <div class="imx">
+
+                <div class="menu-wrapper font-azo">
+                    <a class="logo" href="../index.html">
+                        <img class="effect-off" src="../../assets/img/logo.png" />
+                        <img class="effect-on" src="../../assets/img/logo2.png" />
+                    </a>
+
+                    <ul class="menu-box">
+                        <li class="first-menu hidden-box">
+                            <a>ABOUT</a>
+                            <div class="pc-hidden">
+                                <a href="../about.html" ><em>Company</em></a>
+                                <a href="../headquarters.html"><em>About NIA</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="../about.html">Company</a></li>
+                                <li><a href="../headquarters.html">About NIA</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu hidden-box">
+                            <a>BUSINESS</a>
+                            <div class="pc-hidden">
+                                <a href="../business.html?1"><em>Mobility<br />Technology</em></a>
+                                <a href="../business.html?2"><em>Live Streaming<br />Platform</em></a>
+                                <a href="../business.html?3"><em>Online Booking<br />System</em></a>
+                                <a href="../business.html?4"><em>IT Service<br />Management</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="../business.html?1">Mobility<br />Technology</a></li>
+                                <li><a href="../business.html?2">Live Streaming<br />Platform</a></li>
+                                <li><a href="../business.html?3">Online Booking<br />System</a></li>
+                                <li><a href="../business.html?4">IT Service<br />Management</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu">
+                            <a href="../vision.html">VISION</a>
+                        </li>
+
+                        <li class="first-menu hidden-box">
+                            <a>COMMUNITY</a>
+                            <div class="pc-hidden">
+                                <a href="../notice.html"><em>Notice</em></a>
+                                <a href="../media.html"><em>Media Report</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="../notice.html">Notice</a></li>
+                                <li><a href="../media.html">Media Report</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu">
+                            <a href="../contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <div class="right-box">
+                        <div class="lang-box hidden-box">
+                            <a class="lang-btn"><img src="../../assets/img/icon/icon-earth.svg" />Language</a>
+                            <ul class="lang-menu hidden-menu">
+                                <li><a href="../../kr/notice/notice_1.html">Korea</a></li>
+                                <li><a href="../../in/notice/notice_1.html">Bahasa Indonesia</a></li>
+                            </ul>
+                        </div>
+                        <a class="pc-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <a class="mobile-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mobile-menu font-azo">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="first-menu">ABOUT</a>
+                        <div class="second-menu">
+                            <a href="../about.html">Company</a>
+                            <span></span>
+                            <a href="../headquarters.html">About NIA</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="first-menu">BUSINESS</a>
+                        <div class="second-menu">
+                            <a href="../business.html?1">Mobility Technology</a>
+                            <span></span>
+                            <a href="../business.html?2">Live Streaming Platform</a>
+                            <br />
+                            <a href="../business.html?3">Online Booking System</a>
+                            <span></span>
+                            <a href="../business.html?4">IT Service Management</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="../vision.html" class="first-menu">VISION</a>
+                    </li>
+
+                    <li>
+                        <a class="first-menu">COMMUNITY</a>
+                        <div class="second-menu">
+                            <a href="../notice.html">Notice</a>
+                            <span></span>
+                            <a href="../media.html">Media Report</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="../contact.html" class="first-menu">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.hidden-box').mouseover(function(){
+        if($('.hambuger-menu').hasClass('active')){
+            return false
+        } else{
+            $(this).children('.hidden-menu').stop().slideDown(200);
+        }        
+    });
+    $('.hidden-box').mouseleave(function(){
+        if($('.hambuger-menu').hasClass('active')){
+            return false
+        } else{
+            $(this).children('.hidden-menu').stop().slideUp(200);
+        }                
+    });
+
+    /* header-wrapper scroll event */
+    $(window).scroll(function(){
+        if($(document).scrollTop() > 40){
+            $("#header-wrapper").addClass("color-effect");
+        } else{
+            $("#header-wrapper").removeClass("color-effect");
+        }
+    });
+
+    /* hambuger menu event */
+    $('.pc-ham').on('click' , function(){        
+        if(!$(this).hasClass('active')){
+            $(this).addClass('active');
+            $('.pc-hidden').stop().slideDown();
+            $('.pc-bg').stop().slideDown();
+        } else{
+            $(this).removeClass('active');
+            $('.pc-hidden').stop().slideUp();
+            $('.pc-bg').stop().slideUp();
+        }
+    });
+
+    $('.mobile-ham').on('click' , function(){        
+        if(!$(this).hasClass('active')){
+            $(this).addClass('active');
+            $('.mobile-menu').stop().fadeIn();
+            $('.mobile-menu .inner').stop().slideDown();
+        } else{
+            $(this).removeClass('active');
+            $('.mobile-menu').stop().fadeOut();
+            $('.mobile-menu .inner').stop().slideUp();
+            $('.mobile-menu .second-menu').stop().slideUp();
+            
+        }
+    });
+
+    $('.mobile-menu .first-menu').on('click' , function(){
+        if(!$(this).hasClass('active')){
+            $('.mobile-menu .first-menu').removeClass('active');
+            $(this).addClass('active');
+            $('.mobile-menu .second-menu').stop().slideUp();
+            $(this).next().stop().slideDown();
+        } else{
+            $(this).removeClass('active');
+            $(this).next().stop().slideUp();
+        }
+    });
+</script>

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <title>NIA</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <link href="../assets/css/default.css" rel="stylesheet" />
+    <link href="../assets/css/outline.css" rel="stylesheet" />
+    <link href="../assets/css/page.css" rel="stylesheet" />
+    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/common.js"></script>    
+    <script>
+        $(window).scroll(function(){
+            let offSet = $('.line-wrapper').offset().top;
+            if($(document).scrollTop() > offSet - 600){
+                $(".block-box").addClass('active');
+                setTimeout(function(){
+                    $(".block-box h4").fadeIn(1500);
+                }, 1000);
+            } 
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header-wrapper">
+        <div class="pc-bg"></div>
+        <div class="row">
+            <div class="imx">
+
+                <div class="menu-wrapper font-azo">
+                    <a class="logo" href="index.html">
+                        <img class="effect-off" src="../assets/img/logo.png" />
+                        <img class="effect-on" src="../assets/img/logo2.png" />
+                    </a>
+
+                    <ul class="menu-box">
+                        <li class="first-menu hidden-box">
+                            <a>ABOUT NIA</a>
+                            <div class="pc-hidden">
+                                <a href="introduction.html" ><em>Introduction</em></a>
+                                <a href="ceo.html"><em>CEO Message</em></a>
+                                <a href="people.html"><em>NIA People</em></a>
+                                <a href="office.html"><em>Our Office</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="introduction.html">Introduction</a></li>
+                                <li><a href="ceo.html">CEO Message</a></li>
+                                <li><a href="people.html">NIA People</a></li>
+                                <li><a href="office.html">Our Office</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu hidden-box business">
+                            <a>BUSINESS</a>
+                            <div class="pc-hidden">
+                                <a href="business.html?1"><em>Mobility Technology</em></a>
+                                <a href="business.html?2"><em>Ticketing System and Reservation</em></a>
+                                <a href="business.html?3"><em>Payment System</em></a>
+                                <a href="business.html?4"><em>IT Service Management</em></a>
+                                <a href="business.html?5"><em>Logistics and Delivery System</em></a>
+                                <a href="business.html?6"><em>Live Streaming Platform</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="business.html?1">Mobility Technology</a></li>
+                                <li><a href="business.html?2">Ticketing System and Reservation</a></li>
+                                <li><a href="business.html?3">Payment System</a></li>
+                                <li><a href="business.html?4">IT Service Management</a></li>
+                                <li><a href="business.html?5">Logistics and Delivery System</a></li>
+                                <li><a href="business.html?6">Live Streaming Platform</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu hidden-box">
+                            <a>COMMUNITY</a>
+                            <div class="pc-hidden">
+                                <a href="notice.html"><em>Notice</em></a>
+                                <a href="media.html"><em>Media Report</em></a>
+                                <a href="video.html"><em>Video Documentation</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="notice.html">Notice</a></li>
+                                <li><a href="media.html">Media Report</a></li>
+                                <li><a href="video.html">Video Documentation</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu">
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <div class="right-box">
+                        <div class="lang-box hidden-box">
+                            <a class="lang-btn"><img src="../assets/img/icon/icon-earth.svg" />Language</a>
+                            <ul class="lang-menu hidden-menu">
+                                <li><a href="../kr/index.html">Korea</a></li>
+                                <li><a href="../en/index.html">Bahasa Inggris</a></li>
+                            </ul>
+                        </div>
+                        <a class="pc-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <a class="mobile-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mobile-menu font-azo">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="first-menu">ABOUT</a>
+                        <div class="second-menu">
+                            <a href="introduction.html">Introduction</a>
+                            <span></span>
+                            <a href="ceo.html">CEO Message</a>
+                            <br />
+                            <a href="people.html">NIA People</a>
+                            <span></span>
+                            <a href="office.html">Our Office</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="first-menu">BUSINESS</a>
+                        <div class="second-menu">
+                            <a href="business.html?1">Mobility Technology</a>
+                            <br />
+                            <a href="business.html?2">Ticketing System and Reservation</a>
+                            <br />
+                            <a href="business.html?3">Payment System</a>
+                            <br />
+                            <a href="business.html?4">IT Service Management</a>
+                            <br />
+                            <a href="business.html?5">Logistics and Delivery System</a>
+                            <br />
+                            <a href="business.html?6">Live Streaming Platform</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="first-menu">COMMUNITY</a>
+                        <div class="second-menu">
+                            <a href="notice.html">Notice</a>
+                            <span></span>
+                            <a href="media.html">Media Report</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="first-menu">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-in" id="page-introduction">
+
+        <!-- bg-wrapper start -->
+        <div class="bg-wrapper font-azo">
+            <div class="text-box">
+                <span>Connect people with technology</span>
+                <h3>Introduction</h3>
+            </div>
+        </div>
+        <!-- bg-wrapper end -->
+
+        <!-- about-wrapper start -->
+        <div class="about-wrapper">
+            <div class="row">
+                <div class="imx">
+                    <h3 class="font-azo"><span>Company Profile</span></h3>
+                    <img src='../assets/img/logo_svg.svg' />
+                    <P>
+                        <b>Networks Indonesia Aku (NIA)</b> adalah perusahaan yang menyediakan layanan, solusi, dan produk digital inovasi teknologi informasi dengan spesialisasi di bidang ITS <i>(Intelligent Transport System)</i>. <b>NIA</b> terbentuk pada 10 Desember 2021 yang merupakan anak perusahaan dari <b>Samchully Networks</b> di Korea Selatan yang berdiri sejak tahun 2014.<br /><br /> Kami menciptakan produk digital yang unggul dan menghadirkan inovasi baru melalui sistem dan teknologi yang kami kembangkan sendiri dari Korea. Dengan mengusung teknologi dan sistem canggih dari Korea, <b>NIA</b> berkomitmen untuk selalu menghadirkan kualitas dalam setiap inovasinya.<br /><br /> <b>NIA</b> berpartisipasi untuk membangun dan memajukan sistem transportasi, UMKM dan perusahaan startup di Indonesia, menciptakan berbagai produk unggulan dan menghadirkan visi baru melalui strategi yang sistematis dengan teknologi yang telah terbukti.
+                    </P>
+                </div>
+            </div>
+
+            <!--<div class="text-wrapper font-azo">
+                Connecting people and the world through<br />
+                <em>Technology</em>
+            </div>-->
+        </div>
+        <!-- about-wrapper end -->
+
+
+        <!-- vision-wrapper start -->
+        <div class="vision-wrapper">
+            <div class="row">
+                <div class="imx">
+
+                    <h3 class="font-azo">Vision & Mission</h3>
+
+                    <h4 class="font-azo">Visi NIA :</h4>
+
+                    <p>
+                        Menjadikan perusahaan IT terkemuka di Indonesia dengan fokus mengedepankan produk dan layanan jasa yang ramah lingkungan. Menciptakan teknologi untuk kemajuan transportasi dan infrastruktur, teknologi pada bidang kesehatan, pendidikan, logistik, <i>smart factory</i>, <i>online payment system</i>, dan pengembannya.
+                    </p>
+
+                    <h4 class="font-azo">Misi NIA :</h4>
+
+                    <ul>
+                        <li>
+                            <span>1</span>
+                            <div>
+                                Menyediakan teknologi berbasis komputer dan digital maupun pengembangan perangkat keras dan perangkat lunak dengan fokus pada solusi yang inovatif dan kreatif untuk memenuhi kebutuhan pelanggan.
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>2</span>
+                            <div>
+                                Berfokus pada inovasi, layanan berkualitas tinggi, dan solusi teknologi yang canggih, kami bertekad untuk memberikan kontribusi yang berarti dalam memajukan dunia teknologi informasi. Melalui komitmen ini, kami berusaha untuk membangun hubungan jangka panjang yang kuat dengan pelanggan, menjadi mitra yang dapat diandalkan, dan terus menjadi penyedia solusi IT terdepan.
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>3</span>
+                            <div>
+                                Berkomitmen untuk menjadi pionir dalam mengakselerasi pertumbuhan industri IT di Indonesia dan mewujudkan masyarakat yang lebih terkoneksi dan berdaya.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- vision-wrapper end -->
+
+
+        <!-- core-wrapper start -->
+        <div class="core-wrapper">
+            <div class="row">
+                <div class="imx">
+
+                    <h3 class="font-azo">Core Value</h3>
+
+                    <h4 class="font-azo core-value">
+                        <img src="../assets/img/icon/icon-quotes01.svg" />
+                        <span class="letter-c1">C</span>
+                        <span class="letter-o">O</span>
+                        <span class="letter-n1">N</span>
+                        <span class="letter-n2">N</span>
+                        <span class="letter-e">E</span>
+                        <span class="letter-c2">C</span>
+                        <span class="letter-t">T</span>
+                        <img src="../assets/img/icon/icon-quotes02.svg" />
+                    </h4>
+
+                    <div class="flex-box">
+                        <div class="item">
+                            <span class="color1">C</span> 
+                            <em>Communication</em>       
+                        </div>
+
+                        <div class="item">
+                            <span class="color2">O</span> 
+                            <em>Opportunity</em>       
+                        </div>
+
+                        <div class="item">
+                            <span class="color3">N</span> 
+                            <em>Necessary</em>       
+                        </div>
+
+                    </div>
+
+                    <div class="flex-box">
+                        <div class="item">
+                            <span class="color4">N</span> 
+                            <em>New</em>       
+                        </div>
+
+                        <div class="item">
+                            <span class="color5">E</span> 
+                            <em>Environment</em>       
+                        </div>
+
+                        <div class="item">
+                            <span class="color6">C</span> 
+                            <em>Creative</em>       
+                        </div>
+
+                        <div class="item">
+                            <span class="color7">T</span> 
+                            <em>Trust</em>       
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- core-wrapper end -->
+
+        <!-- line-wrapper start -->
+        <div class="line-wrapper">
+            <div class="row">
+                <div class="imx">
+
+                    <h3 class="font-azo">Management Philosophy</h3>
+
+                    <div class="block-box">
+                        <img src="../assets/img/icon/icon-block01.svg" />
+                        <h4>Technology, Nature, Together</h4>
+                        <img src="../assets/img/icon/icon-block02.svg" />
+                    </div>
+
+                    <p>
+                        NIA membawa teknologi dan bumi untuk dapat saling berdampingan melalui inovasi dan komitmen yang tinggi untuk memberikan perubahan terhadap lingkungan dan kehidupan yang lebih baik.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- line-wrapper end -->
+
+         <!-- vision-wrapper start -->
+         <div class="vision-wrapper our-history">
+            <div class="row">
+                <div class="imx">
+
+                    <h3 class="font-azo">Our History</h3>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2023</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Nov</span>
+                                <div>
+                                    Menerima penghargaan dari <i>Ministry of the Interior and Safety</i> Korea Selatan sebagai pelaksana ODA terbaik 2023
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Okt</span>
+                                <div>
+                                    Menyelesaikan “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia” 
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Sep</span>
+                                <div>
+                                    Menyelenggarakan <i>Opening Ceremony</i> “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia”
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Jul</span>
+                                <div>
+                                    Melaksanakan pelatihan undangan kedua di Korea untuk proyek modernisasi terminal bus Indonesia.<br /><br /> Mengunjungi kota Seoul, Sejong (kompleks pemerintahan), Ulsan, Jeonju, Busan (kompleks terminal bus), dll
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Apr</span>
+                                <div>
+                                    Mulai Operasi Percontohan di kedua terminal uji coba (Kp. Rambutan dan Leuwipanjang)<br /><br />
+                                    Mulai mengembangkan platform transportasi kargo di Indonesia<br /><br />Melakukan survei lapangan untuk perluasan seluruh Terminal Tipe A di Indonesia
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Feb</span>
+                                <div>
+                                    Menyelenggarakan pelatihan masing - masing terminal untuk Operasi Percontohan Modernisasi Terminal Bus di Indonesia
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Jan</span>
+                                <div>
+                                    "Meluncurkan “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia” di tahun ketiga
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2022</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Des</span>
+                                <div>
+                                    Menyelesaikan “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia” di tahun kedua<br /><br />
+                                    Menyelenggarakan seminar untuk promosi dan penyebaran sistem modernisasi terminal bus Indonesia yang dihadiri oleh Kementerian Perhubungan RI dan perwakilan terminal nasional Indonesia
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Nov</span>
+                                <div>
+                                    Melaksanakan pelatihan undangan pertama di Korea untuk proyek modernisasi terminal bus Indonesia <br /><br />
+                                    Mengunjungi kota Seoul, Sejong (kompleks pemerintahan), Daejeon (kompleks terminal bus), dll
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Jan</span>
+                                <div>
+                                    Meluncurkan “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia” di tahun kedua
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="clear">
+                        <span class="fl w15 year">2021</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Des</span>
+                                <div>
+                                    Menyelesaikan “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia” di tahun pertama<br /><br />
+                                    Mendirikan perusahaan cabang di Indonesia (Jakarta)
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Agu</span>
+                                <div>
+                                    Memprakarsai pengembangan <i>'Healthyhada'</i>, <i>"Health Care"</i> platform perawatan kesehatan kecerdasan buatan (AI)
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Apr</span>
+                                <div>
+                                    Menerima tugas untuk “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia”<br /><br />
+                                    (ODA, Kementerian Pertanahan, Infrastruktur dan Transportasi)<br /><br />
+                                    Inspeksi dan investigasi lokasi terminal percontohan Indonesia (masih dalam tahap proses)
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Feb</span>
+                                <div>
+                                    Meluncurkan 'Olligo', platform transportasi di sektor konstruksi
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2020</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Des</span>
+                                <div>
+                                    Terpilih sebagai <i>"Small Giants"</i> oleh Kementerian Tenaga Kerja<br /><br />
+                                    Akuisisi bisnis konstruksi luar negeri (teknik konstruksi/bisnis konstruksi informasi dan komunikasi)
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Nov</span>
+                                <div>
+                                    Pengembangan 'Olligo', platform transportasi di sektor konstruksi<br /><br />
+                                    Meluncurkan “lingkungan 24 jam”, sistem transportasi untuk melacak kendaraan limbah di bidang konstruksi
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Agu</span>
+                                <div>
+                                    Membuka cabang di Jeju<br /><br />
+                                    Inspeksi dan investigasi di 100 terminal bus di Indonesia
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Mar</span>
+                                <div>
+                                    Konstruksi halte dan terminal bus Kamboja Phnom Penh, studi kelayakan BIS <i>(Bus Information System)</i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2019</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Des</span>
+                                <div>
+                                    Terdaftar sebagai perusahaan modal ventura KOVA (No. 20190729-42348) / Memperoleh sertifikasi Main Biz<br /><br />
+                                    Memperoleh paten: Sistem Pengiriman Otomatis (Nomor Paten: 10-2038395)
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Nov</span>
+                                <div>
+                                    Aplikasi paten untuk lokasi berbasis solusi dalam berbagi informasi<br /><br />
+                                    Pengembangan dan peluncuran platform Samchully PAY (komersialisasi)
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Sep</span>
+                                <div>
+                                    Verifikasi studi kelayakan ITS Ulaanbaatar Mongolia dan studi kelayakan terminal kompleks
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2018</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Nov</span>
+                                <div>
+                                    Mendirikan lembaga penelitian yang berafiliasi dengan perusahaan lain (Lembaga Penelitian Teknis No. 2018113469)
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Mei</span>
+                                <div>
+                                    Memperoleh ISO9001: 18-A-1004 IGC
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Mar</span>
+                                <div>
+                                    Desain dan pengembangan sistem penerbitan tiket berbasis <i>cloud</i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2017</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Mar</span>
+                                <div>
+                                    Membuka 25 cabang dan platform agensi transportasi nasional
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2016</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Des</span>
+                                <div>
+                                    Pengembangan dan pemeliharaan sistem tiket untuk kapal-kapal yang dipandu oleh Asosiasi Kapal Pesiar Nasional
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Agu</span>
+                                <div>
+                                    Pengembangan dan peluncuran platform transportasi cerdas terintegrasi (komersialisasi)
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2015</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Okt</span>
+                                <div>
+                                    Desain dan pengembangan solusi dalam relai komunikasi nirkabel seluler (TRS) seperti KT dan KT Powertel
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Jun</span>
+                                <div>
+                                    Membuka dan mengoperasikan call center transportasi terintegrasi
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear">
+                        <span class="fl w15 year">2014</span>
+                        <ul class="fr w80 month">
+                            <li>
+                                <span>Okt</span>
+                                <div class="spacetop">
+                                    Mendirikan Samchully Networks Co., Ltd. (Kantor Pusat, di Seoul, Korea)
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- vision-wrapper end -->
+
+
+    </div>
+
+    <div id="footer-wrapper">
+        <div class="row">
+            <div class="imx">
+    
+                <div class="clear">
+                    <div class="fl">
+                        <h4 class="font-azo">PT. Networks Indonesia Aku</h4>
+                        <p>
+                            AIA CENTRAL, Lantai 21<br /><br /> Jl. Jenderal Sudirman No.Kav. 48A, Karet Semanggi, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12930
+                        </p>
+                        <ul class="btn-box">
+                            <li><a>Terms and Conditions</a></li>
+                            <li><a>Privacy policy</a></li>
+                            <li><a>Cookies</a></li>
+                        </ul>
+                        <em>Copyright. 2023 PT. Networks Indonesia Aku All Rights reserved</em>
+                    </div>
+    
+                    <div class="fr">
+                        <h4 class="font-azo">Connect with us</h4>
+                        <div class="icon-box">
+                            <a href="https://instagram.com/networksindonesiaaku?igshid=MTk0NTkyODZkYg==" target="_blank"><img src='../assets/img/icon/icon-insta.svg' /></a>
+                            <a href="https://www.tiktok.com/@networksindonesiaaku" target="_blank"><img src='../assets/img/icon/icon-tiktok.svg' /></a>
+                            <a href="https://www.facebook.com/NetworksIndonesiaAKU" target="_blank"><img src='../assets/img/icon/icon-fabook.svg' /></a>
+                            <a href="https://www.youtube.com/@networksindonesiaaku4258?themeRefresh=1" target="_blank"><img src='../assets/img/icon/icon-youtube.svg' /></a>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>Kantor Pusat</span>
+                                <em></em>
+                                <a href="http://sclnetworks.co.kr" target="_blank">http://www.sclnetworks.co.kr</a>
+                            </li>
+                        </ul>
+                        <p>Copyright. 2023 PT. Networks Indonesia Aku All Rights reserved</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

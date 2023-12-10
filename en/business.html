@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <title>NIA</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <link href="../assets/css/default.css" rel="stylesheet" />
+    <link href="../assets/css/outline.css" rel="stylesheet" />
+    <link href="../assets/css/page.css" rel="stylesheet" />
+    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/common.js"></script>        
+    <script>
+        $(document).ready(function(){
+            let url = Number($(location).attr('href').split('?').pop());
+            let h = $('#header-wrapper').height();
+            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
+            $('html, body').animate( { scrollTop : offSet }, 1000 );
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header-wrapper">
+        <div class="pc-bg"></div>
+        <div class="row">
+            <div class="imx">
+
+                <div class="menu-wrapper font-azo">
+                    <a class="logo" href="index.html">
+                        <img class="effect-off" src="../assets/img/logo.png" />
+                        <img class="effect-on" src="../assets/img/logo2.png" />
+                    </a>
+
+                    <ul class="menu-box">
+                        <li class="first-menu hidden-box">
+                            <a>ABOUT NIA</a>
+                            <div class="pc-hidden">
+                                <a href="introduction.html" ><em>Introduction</em></a>
+                                <a href="ceo.html"><em>CEO Message</em></a>
+                                <a href="people.html"><em>NIA People</em></a>
+                                <a href="office.html"><em>Our Office</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="introduction.html">Introduction</a></li>
+                                <li><a href="ceo.html">CEO Message</a></li>
+                                <li><a href="people.html">NIA People</a></li>
+                                <li><a href="office.html">Our Office</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu hidden-box business">
+                            <a>BUSINESS</a>
+                            <div class="pc-hidden">
+                                <a href="business.html?1"><em>Mobility Technology</em></a>
+                                <a href="business.html?2"><em>Ticketing System and Reservation</em></a>
+                                <a href="business.html?3"><em>Payment System</em></a>
+                                <a href="business.html?4"><em>IT Service Management</em></a>
+                                <a href="business.html?5"><em>Logistics and Delivery System</em></a>
+                                <a href="business.html?6"><em>Live Streaming Platform</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="business.html?1">Mobility Technology</a></li>
+                                <li><a href="business.html?2">Ticketing System and Reservation</a></li>
+                                <li><a href="business.html?3">Payment System</a></li>
+                                <li><a href="business.html?4">IT Service Management</a></li>
+                                <li><a href="business.html?5">Logistics and Delivery System</a></li>
+                                <li><a href="business.html?6">Live Streaming Platform</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu hidden-box">
+                            <a>COMMUNITY</a>
+                            <div class="pc-hidden">
+                                <a href="notice.html"><em>Notice</em></a>
+                                <a href="media.html"><em>Media Report</em></a>
+                                <a href="video.html"><em>Video Documentation</em></a>
+                            </div>
+                            <ul class="hidden-menu active">
+                                <li><a href="notice.html">Notice</a></li>
+                                <li><a href="media.html">Media Report</a></li>
+                                <li><a href="video.html">Video Documentation</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="first-menu">
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <div class="right-box">
+                        <div class="lang-box hidden-box">
+                            <a class="lang-btn"><img src="../assets/img/icon/icon-earth.svg" />Language</a>
+                            <ul class="lang-menu hidden-menu">
+                                <li><a href="../kr/index.html">Korea</a></li>
+                                <li><a href="../in/index.html">Indonesian</a></li>
+                            </ul>
+                        </div>
+                        <a class="pc-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <a class="mobile-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mobile-menu font-azo">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="first-menu">ABOUT</a>
+                        <div class="second-menu">
+                            <a href="introduction.html">Introduction</a>
+                            <span></span>
+                            <a href="ceo.html">CEO Message</a>
+                            <br />
+                            <a href="people.html">NIA People</a>
+                            <span></span>
+                            <a href="office.html">Our Office</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="first-menu">BUSINESS</a>
+                        <div class="second-menu">
+                            <a href="business.html?1">Mobility Technology</a>
+                            <br />
+                            <a href="business.html?2">Ticketing System and Reservation</a>
+                            <br />
+                            <a href="business.html?3">Payment System</a>
+                            <br />
+                            <a href="business.html?4">IT Service Management</a>
+                            <br />
+                            <a href="business.html?5">Logistics and Delivery System</a>
+                            <br />
+                            <a href="business.html?6">Live Streaming Platform</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="first-menu">COMMUNITY</a>
+                        <div class="second-menu">
+                            <a href="notice.html">Notice</a>
+                            <span></span>
+                            <a href="media.html">Media Report</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="first-menu">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-scroll page-in" id="page-business">
+
+        <!-- bg-wrapper start -->
+        <div class="bg-wrapper font-azo">
+            <div class="text-box">
+                <span>Make the world more creative</span>
+                <h3>Business Portfolio</h3>
+            </div>
+        </div>
+        <!-- bg-wrapper end -->
+
+        <!-- section-wrapper start -->
+        <div class="section-wrapper">
+
+            <div class="section">
+                <div class="row active">
+                    <div class="imx">
+                        <div class="btn-box clear">
+                            <a class="active">Mobility <br />Technology</a>
+                            <a>Ticketing System <br />and Reservation</a>
+                            <a>Payment <br />System</a>
+                            <a>IT Service <br />Management</a>
+                            <a>Logistics and <br />Delivery System</a>
+                            <a>Live Streaming <br />Platform</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img02.png' />
+                    <div class="text-box">
+                        <h3 class="font-azo">Mobility<br />Technology</h3>
+                        <span>01</span>
+                        <p>
+                            Through the smart integrated transportation platform, we gather Big Data from real-time location tracking, traffic control, vehicles, and distance and cost calculations. Our solutions can predict demand, manage risks, and respond using Big Data.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4 class="font-azo">Our Products & Services:</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img03.png" />
+                                <div>
+                                    <em class="font-azo"><span>01</span>Mobility Technology</em>
+                                    <h5>Development of ITS<br />(Intelligent Transport System)</h5>
+                                    <span>
+                                        With various technologies and knowledge we have accumulated, we plan, design, and develop transportation platforms. This aims to enhance the efficiency and stability of the transportation system by implementing advanced technologies such as electronics, information, and communication.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img04.png" />
+                                <div>
+                                    <h5>Diverse and Creative Transportation and Communication Technologies </h5>
+                                    <span>
+                                        We possess world-class ICT technologies, including the Intelligent Transport System (ITS) that encompasses monitoring solutions for location, logistics, passengers, vehicles, and big data processing.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img05.png" />
+                                <div>
+                                    <h5>Establishment and Operation of Platforms for Transportation, Logistics, and Passengers</h5>
+                                    <span>
+                                        We construct optimal platforms by combining years of accumulated environmental and traffic research data in Indonesia with the methods and techniques currently being developed and operated in Korea.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row active">
+                    <div class="imx">
+                        <div class="btn-box clear">
+                            <a>Mobility <br />Technology</a>
+                            <a class="active">Ticketing System <br />and Reservation</a>
+                            <a>Payment <br />System</a>
+                            <a>IT Service <br />Management</a>
+                            <a>Logistics and <br />Delivery System</a>
+                            <a>Live Streaming <br />Platform</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img29.png' />
+                    <div class="text-box">
+                        <h3 class="font-azo">Ticketing System<br /> and Reservation</h3>
+                        <span>02</span>
+                        <p>
+                            Our other flagship products and services include a ticket booking and sales system. Through this solution, we provide customers with an efficient and reliable booking experience. With modern technology, our ticket services offer convenience in trip planning and provide flexibility in purchasing tickets securely and comfortably.
+                        </p>
+                        <a href="https://smartterminal.dephub.go.id/" target="_blank" class="more-btn">Smart Terminal</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4 class="font-azo">Our Products & Services:</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img07.jpg" />
+                                <div>
+                                    <em class="font-azo"><span>02</span>Ticketing System and Reservation</em>
+                                    <h5>Reports & statistics provide you with the latest essential business analytics</h5>
+                                    <span>
+                                        Reports and statistics offer up-to-date business analytics information crucial for you. By utilizing this data, you can better understand your business performance and make more strategically informed decisions.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business_kiosk.png" />
+                                <div>
+                                    <h5>Reservation services through vending machine (Kiosk) and counter service</h5>
+                                    <span>
+                                        We offer reservation facilities through vending machine (kiosk) and counter service. With this option, customers can easily book services and still can reserve the tickets when there’s an internet error through ‘emergency system’ in counter service. These reservation facilities are designed to provide convenient access and efficiency in transactions, ensuring a smooth and efficient customer experience.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row active">
+                    <div class="imx">
+                        <div class="btn-box clear">
+                            <a>Mobility <br />Technology</a>
+                            <a>Ticketing System <br />and Reservation</a>
+                            <a class="active">Payment <br />System</a>
+                            <a>IT Service <br />Management</a>
+                            <a>Logistics and <br />Delivery System</a>
+                            <a>Live Streaming <br />Platform</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img10.png' />
+                    <div class="text-box">
+                        <h3 class="font-azo">Payment <br />System</h3>
+                        <span>03</span>
+                        <p>
+                            Furthermore, we offer various products and services related to payment systems. These products and services are designed to meet the needs of customers in managing financial transactions easily and securely. We are committed to providing efficient and reliable payment solutions, supporting the sustainability of your business and the security of your financial transactions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4 class="font-azo">Our Products & Services:</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img11.png" />
+                                <div>
+                                    <em class="font-azo"><span>03</span>Payment System</em>
+                                    <h5>Comprehensive Payment Methods</h5>
+                                    <span>
+                                        We offer a diverse range of payment methods to facilitate customer transactions. With a variety of payment options, we are committed to providing flexibility and convenience for customers to make payments according to their preferences, making the transaction experience more comfortable and efficient.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img12.png" />
+                                <div>
+                                    <h5>Processing Refunds, Settlements, Cancellations, Reports, etc</h5>
+                                    <span>
+                                        We manage various processes, such as refund processing, settlements, cancellations, and report generation, to ensure the smoothness and accuracy of financial transactions. Focusing on this aspect, we are committed to providing efficient and responsive services, meeting customer needs and satisfaction optimally.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img13.png" />
+                                <div>
+                                    <h5>Easy and Fast API Integration</h5>
+                                    <span>
+                                        We provide simple and fast API integration, enabling our system to easily connect with various platforms and applications. With this option, customers can efficiently combine the functionality of our system with other solutions, providing optimal flexibility in data and operational management.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img14.png" />
+                                <div>
+                                    <h5>Secure and Reliable Transaction System</h5>
+                                    <span>
+                                        We offer a secure and reliable transaction system. With high-level security and guaranteed reliability, customers can confidently conduct transactions. This system is designed to provide maximum security and ensure that each transaction runs smoothly and efficiently.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img15.png" />
+                                <div>
+                                    <h5>Automatic Recording of All Payment Transactions</h5>
+                                    <span>
+                                        The process of automatic recording for each payment transaction ensures efficiency and accuracy in financial reporting. With this feature, every payment transaction is automatically recorded, providing ease in financial management and ensuring data accuracy for reporting and analysis purposes.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row active">
+                    <div class="imx">
+                        <div class="btn-box clear">
+                            <a>Mobility <br />Technology</a>
+                            <a>Ticketing System <br />and Reservation</a>
+                            <a>Payment <br />System</a>
+                            <a class="active">IT Service <br />Management</a>
+                            <a>Logistics and <br />Delivery System</a>
+                            <a>Live Streaming <br />Platform</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img16.png' />
+                    <div class="text-box">
+                        <h3 class="font-azo">IT Service <br />Management</h3>
+                        <span>04</span>
+                        <p>
+                            Our IT Service Management (ITSM) services encompass a variety of products and services designed to assist organizations in managing and enhancing the performance of their IT systems and services. Through ITSM, we provide integrated solutions to support the effective planning, implementation, and monitoring of IT services. With a focus on efficient service management, our ITSM products and services can help improve the productivity, efficiency, and operational reliability of your company.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4 class="font-azo">Our Products & Services:</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img17.png" />
+                                <div>
+                                    <em class="font-azo"><span>04</span>IT Service Management</em>
+                                    <h5>One-touch KPI Business Management</h5>
+                                    <span>
+                                        Our service provides ease in KPI management with just one touch. With this approach, your business can efficiently monitor and manage key performance indicators more practically and effectively.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img18.png" />
+                                <div>
+                                    <h5>Professional Support Services, Remote Training, Chat</h5>
+                                    <span>
+                                        We offer professional support services, including remote training and chat, providing reliable solutions for your needs with high expertise.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img19.png" />
+                                <div>
+                                    <h5>Flexible for Retail, Distributors, Factories</h5>
+                                    <span>
+                                        Our platform is designed to be flexible to meet the needs of various business sectors, including retail, distributors, and factories. With high adaptability, this platform provides solutions according to operational models and business demands across various industries.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img20.png" />
+                                <div>
+                                    <h5>Adaptability in Non-standard or Rapidly Changing Production Processes</h5>
+                                    <span>
+                                        We are always ready to face adjustments in non-standard or rapidly changing production processes. With our resilience and skills, we address them quickly and efficiently, maintaining smooth production without compromising high-quality standards.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row active">
+                    <div class="imx">
+                        <div class="btn-box clear">
+                            <a>Mobility <br />Technology</a>
+                            <a>Ticketing System <br />and Reservation</a>
+                            <a>Payment <br />System</a>
+                            <a>IT Service <br />Management</a>
+                            <a class="active">Logistics and <br />Delivery System</a>
+                            <a>Live Streaming <br />Platform</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img21.png' />
+                    <div class="text-box">
+                        <h3 class="font-azo">Logistic and <br />Delivery System</h3>
+                        <span>05</span>
+                        <p>
+                            Our logistics and delivery system has been designed with sophisticated and reliable solutions, ensuring optimal smoothness in both the management and delivery of goods. With a focus on efficiency, we are committed to providing maximum satisfaction to every customer who relies on our services.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4 class="font-azo">Our Products & Services:</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img22.png" />
+                                <div>
+                                    <em class="font-azo"><span>05</span>Logistic and Delivery System</em>
+                                    <h5>Real-time monitoring and tracking of logistics vehicle locations</h5>
+                                    <span>
+                                        We conduct real-time monitoring and tracking of logistics vehicle locations. With cutting-edge technology, we ensure accurate and timely control, thereby strengthening efficiency in delivery and logistics management.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img23.png" />
+                                <div>
+                                    <h5>Automated business reporting and analysis</h5>
+                                    <span>
+                                        Our automated business reporting and analysis services help simplify the process of evaluating company performance. Utilizing sophisticated automation technology, we provide accurate reports and efficient in-depth analysis. This enables a better understanding of business conditions, facilitates strategic decision-making, and enhances operational effectiveness.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img24.png" />
+                                <div>
+                                    <h5>Facilitating the delivery of goods to your customers</h5>
+                                    <span>
+                                        We facilitate the delivery of goods to your customers. With a reliable and efficient logistics system, we ensure that every product arrives on time, making your customers' experience more comfortable and satisfying.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img25.png" />
+                                <div>
+                                    <h5>Providing easy relocation (apartments, houses, high-rises, etc.) using skylift vehicles</h5>
+                                    <span>
+                                        We offer easy relocation services for apartments, houses, high-rises, and more, using skylift vehicles. With advanced technology and skilled personnel, we ensure that the relocation process is efficient, safe, and provides comfort to customers.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row active">
+                    <div class="imx">
+                        <div class="btn-box clear">
+                            <a>Mobility <br />Technology</a>
+                            <a>Ticketing System <br />and Reservation</a>
+                            <a>Payment <br />System</a>
+                            <a>IT Service <br />Management</a>
+                            <a>Logistics and <br />Delivery System</a>
+                            <a class="active">Live Streaming <br />Platform</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img26.png' />
+                    <div class="text-box">
+                        <h3 class="font-azo">Live Streaming<br /> Platform</h3>
+                        <span>06</span>
+                        <p>
+                            Our flagship services are centered around live streaming platforms. By integrating cutting-edge technology and optimizing user experience, we strive to deliver captivating and high-quality live streaming experiences to our users. With this service, we are committed to meeting the needs and expectations of our customers, making their streaming experiences more interactive and satisfying.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4 class="font-azo">Our Products & Services:</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img27.png" />
+                                <div>
+                                    <em class="font-azo"><span>06</span>Live Streaming Platform</em>
+                                    <h5>Online Consultation through Website, Mobile Apps, and Video Call</h5>
+                                    <span>
+                                        We offer online consultation services through various platforms, including websites, mobile applications, and video calls. Leveraging cutting-edge technology, we facilitate convenient access to consultation for customers, enabling them to interact efficiently and receive assistance comfortably from the convenience of their own devices.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img28.png" />
+                                <div>
+                                    <h5>Utilizing AI, Machine Learning, and Big Data to Simplify Your Business</h5>
+                                    <span>
+                                        By harnessing artificial intelligence (AI), machine learning, and big data, we provide solutions that streamline your business journey. This technology not only serves as a reliable partner but also offers ease in the efficient management and development of your business.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- section-wrapper end -->
+
+    </div>
+
+    <div id="footer-wrapper">
+        <div class="row">
+            <div class="imx">
+    
+                <div class="clear">
+                    <div class="fl">
+                        <h4 class="font-azo">PT. Networks Indonesia Aku</h4>
+                        <p>
+                            AIA CENTRAL, Lantai 21<br /><br /> Jl. Jenderal Sudirman No.Kav. 48A, Karet Semanggi, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12930
+                        </p>
+                        <ul class="btn-box">
+                            <li><a>Terms and Conditions</a></li>
+                            <li><a>Privacy policy</a></li>
+                            <li><a>Cookies</a></li>
+                        </ul>
+                        <em>Copyright. 2023 PT. Networks Indonesia Aku All Rights reserved</em>
+                    </div>
+    
+                    <div class="fr">
+                        <h4 class="font-azo">Connect with us</h4>
+                        <div class="icon-box">
+                            <a href="https://instagram.com/networksindonesiaaku?igshid=MTk0NTkyODZkYg==" target="_blank"><img src='../assets/img/icon/icon-insta.svg' /></a>
+                            <a href="https://www.tiktok.com/@networksindonesiaaku" target="_blank"><img src='../assets/img/icon/icon-tiktok.svg' /></a>
+                            <a href="https://www.facebook.com/NetworksIndonesiaAKU" target="_blank"><img src='../assets/img/icon/icon-fabook.svg' /></a>
+                            <a href="https://www.youtube.com/@networksindonesiaaku4258?themeRefresh=1" target="_blank"><img src='../assets/img/icon/icon-youtube.svg' /></a>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>Kantor Pusat</span>
+                                <em></em>
+                                <a href="http://sclnetworks.co.kr" target="_blank">http://www.sclnetworks.co.kr</a>
+                            </li>
+                        </ul>
+                        <p>Copyright. 2023 PT. Networks Indonesia Aku All Rights reserved</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
