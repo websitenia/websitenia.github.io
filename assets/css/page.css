@@ -4655,7 +4655,7 @@
     margin-bottom: 40px;
 }
 
-#page-video video {
+#page-video video, #page-video iframe {
     display: block;
     margin: 16px auto 80px;
 }
