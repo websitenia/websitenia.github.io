@@ -1809,39 +1809,39 @@
     filter: blur(4px);
 }
 
-#page-introduction .core-value .letter-c1 {
+#page-introduction .core-value.active .letter-c1 {
     color: #0E4989;
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#page-introduction .core-value .letter-o {
+#page-introduction .core-value.active .letter-o {
     color: #C60707;
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#page-introduction .core-value .letter-n1 {
+#page-introduction .core-value.active .letter-n1 {
     color: #FFA100;
-    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#page-introduction .core-value .letter-n2 {
+#page-introduction .core-value.active .letter-n2 {
     color: #7A3555;
-    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#page-introduction .core-value .letter-e {
+#page-introduction .core-value.active .letter-e {
     color: #316B1B;
-    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#page-introduction .core-value .letter-c2 {
+#page-introduction .core-value.active .letter-c2 {
     color: #60499F;
-    animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#page-introduction .core-value .letter-t {
+#page-introduction .core-value.active .letter-t {
     color: #357ABF;
-    animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 @keyframes fade-in {
