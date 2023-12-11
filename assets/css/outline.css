@@ -133,6 +133,7 @@
     width: 100%;
 }
 
+/* --- Language --- */
 #header-wrapper .lang-box {
     display: inline-block;
 }
@@ -282,8 +283,9 @@
 #footer-wrapper {
     border-top: 1px #333 solid;
     /*background: #F0F0F0;*/
-    background: #0E0907;
-    /* background: #263238; v2 */
+    /* background: #0E0907; */
+    background: #263238;
+    /* background: #E0E0E0; v3 */
     padding: 70px 0px 40px;
 }
 
