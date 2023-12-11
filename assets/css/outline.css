@@ -83,7 +83,7 @@
 
 #header-wrapper .menu-box .first-menu .pc-hidden {
     position: absolute;
-    top: 75px;
+    top: 95px;
     left: 0px;
     width: 100%;
     padding: 20px 0px 0px 53px;
@@ -136,12 +136,12 @@
 
 #header-wrapper .lang-menu {
     width: 180px !important;
-    top: 62px !important;
+    top: 61px !important;
     left: -40px !important;
 }
 
 #header-wrapper .lang-box .lang-btn {
-    padding: 12px 0px 12px 28px;
+    padding: 12px 0px 10px 36px;
     display: inline-block;
     margin-right: 40px;
 }
@@ -214,9 +214,10 @@
 
 #header-wrapper .hambuger-menu span {
     width: 24px;
-    background: #333;
-    height: 2px;
+    height: 2.5px;
     position: absolute;
+    background: #333;
+    border-radius: 16px;
     transition: all 0.3s;
 }
 
@@ -227,8 +228,7 @@
 
 #header-wrapper .hambuger-menu span:nth-child(2) {
     width: 18px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 40%;
     right: 0px;
 }
 
@@ -455,14 +455,18 @@
     #header-wrapper {
         height: 60px;
     }
-    
 
     #header-wrapper .row {
         width: 100%;
+        padding: 0 20px;
     }
 
     #header-wrapper .logo img {
         width: 75px;
+    }
+
+    #header-wrapper .lang-box .lang-btn {
+        padding: 12px 0px 8px 36px;
     }
 
     #header-wrapper .hambuger-menu.pc-ham {
