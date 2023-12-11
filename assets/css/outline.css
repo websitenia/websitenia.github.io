@@ -1,3 +1,7 @@
+/* ----------------
+  HEADER SECTION
+---------------- */
+
 #header-wrapper {
     height: 80px;
     width: 100%;
@@ -271,6 +275,10 @@
     display: none;
 }
 
+/* ----------------
+  FOOTER SECTION
+---------------- */
+
 #footer-wrapper {
     border-top: 1px #333 solid;
     /*background: #F0F0F0;*/
@@ -440,6 +448,7 @@
     display: none;
 }
 
+/* --- Laptop --- */
 @media screen and (max-width:1140px) {
     #header-wrapper {
         height: 60px;
@@ -551,6 +560,7 @@
     }
 }
 
+/* --- Tablet --- */
 @media screen and (max-width:992px) {
 
     #footer-wrapper .row {
@@ -606,7 +616,7 @@
     }
 }
 
-
+/* --- Phone --- */
 @media screen and (max-width:426px) {
 
     #footer-wrapper .location .icon-map {
