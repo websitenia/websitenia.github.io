@@ -19,11 +19,6 @@
     width: calc(100% - 160px);
 }
 
-#header-wrapper .logo img {
-    width: 92px;
-    display: block;
-}
-
 #header-wrapper .logo .effect-on {
     display: none;
 }
@@ -271,7 +266,7 @@
 }
 
 #header-wrapper.color-effect .logo .effect-on {
-    display: block;
+    display: inline;
 }
 
 #header-wrapper.color-effect .logo .effect-off {
