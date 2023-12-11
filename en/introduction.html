@@ -17,6 +17,9 @@
     <script>
         $(window).scroll(function(){
             let offSet = $('.line-wrapper').offset().top;
+            if($(document).scrollTop() > offSet - 1450){
+                $(".core-value").addClass('active');
+            }
             if($(document).scrollTop() > offSet - 600){
                 $(".block-box").addClass('active');
                 setTimeout(function(){
