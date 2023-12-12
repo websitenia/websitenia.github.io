@@ -130,8 +130,24 @@
 }
 
 /* --- Language --- */
+#header-wrapper .content-right {
+    display: flex;
+}
+
+#header-wrapper .language {
+    margin-right: 16px;
+}
+
 #header-wrapper .lang-box {
     display: inline-block;
+}
+
+#header-wrapper .lang-btn .language_flag {
+    margin-right: 4px;
+}
+
+#header-wrapper .lang-btn span {
+    padding-top: 4px;
 }
 
 #header-wrapper .lang-menu {
@@ -141,17 +157,26 @@
 }
 
 #header-wrapper .lang-box .lang-btn {
-    padding: 12px 0px 10px 36px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 40px;
 }
 
-#header-wrapper .lang-box img {
+#header-wrapper .btn_contact_us {
+    padding: 13px 24px 10px;
+    color: #FEFBFF;
+    font-size: 14px;
+    background-color: #FB6924;
+    border-radius: 40px;
+}
+
+/*#header-wrapper .lang-box img {
     position: absolute;
     left: 0px;
     top: 50%;
     transform: translateY(-50%);
-}
+}*/
 
 #header-wrapper .hidden-menu {
     position: absolute;
@@ -209,6 +234,8 @@
     width: 24px;
     height: 16px;
     display: inline-block;
+    position: relative;
+    top: -10px;
     vertical-align: middle;
 }
 
@@ -463,10 +490,6 @@
 
     #header-wrapper .logo img {
         width: 75px;
-    }
-
-    #header-wrapper .lang-box .lang-btn {
-        padding: 12px 0px 8px 36px;
     }
 
     #header-wrapper .hambuger-menu.pc-ham {
