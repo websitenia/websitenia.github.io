@@ -77,6 +77,10 @@
     cursor: pointer;
 }
 
+#header-wrapper .menu-box .first-menu a {
+    font-family: 'Roboto', sans-serif;
+}
+
 #header-wrapper .menu-box .first-menu:hover {
     background: rgba(255, 255, 255, 0.2);
 }
@@ -172,7 +176,7 @@
 
 #header-wrapper .hidden-menu {
     position: absolute;
-    top: 80px;
+    top: 79px;
     left: 0;
     width: 100%;
     padding: 30px;

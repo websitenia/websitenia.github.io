@@ -10,7 +10,7 @@
 
 body {
 	font-size: 14px;
-	font-family: 'Pretendard', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #333;
 }
 
@@ -173,7 +173,8 @@ textarea {
 }
 
 .font-azo {
-	font-family: 'AzoSans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'AzoSans', sans-serif;*/
 }
 
 input.checkbox-type1 {
