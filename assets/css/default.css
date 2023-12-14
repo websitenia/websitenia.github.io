@@ -177,6 +177,34 @@ textarea {
 	/*font-family: 'AzoSans', sans-serif;*/
 }
 
+.font-hahmlet {
+	font-family: 'Hahmlet', serif;
+}
+
+.font-orbit {
+	font-family: 'Orbit', sans-serif;
+}
+
+.font-notoserif {
+	font-family: 'Noto Serif KR', serif;
+}
+
+.font-gothic {
+	font-family: 'Gothic A1', sans-serif;
+}
+
+.font-songmyung {
+	font-family: 'Song Myung', serif;
+}
+
+.font-nanum {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.font-nanumgothic {
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
 input.checkbox-type1 {
 	width: 24px !important;
 	height: 24px !important;
