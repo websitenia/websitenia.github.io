@@ -37,7 +37,7 @@
         <div class="map-wrapper">
             <div class="row">
                 <div class="imx">
-                    <h3 class="font-azo">Location</h3>
+                    <h3 class="font-azo">오시는 길</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3456496281106!2d106.8144257745311!3d-6.218068060901542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f15549fa3d23%3A0x6e35f06585ecba5f!2sAIA%20Central!5e0!3m2!1sid!2sid!4v1701683012463!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <ul>
                         <li>
@@ -77,45 +77,36 @@
                     <div class="form-box">
                         <form method="POST" target="iframe1" data-email="scln.elsoul@gmail.com" action="https://script.google.com/macros/s/AKfycbz_-jKVNiaHhdplYd-EkGVHk3itT2kmun-oAIJSxmH9U96ORTSK-sPtcLumFusYKG9Q/exec">
                             <label>
-                                <span>Nama</span>
-                                <input id="name" name="name" type="text" placeholder="Masukan nama" />
+                                <span>이름</span>
+                                <input id="name" name="name" type="text" placeholder="이름 입력" />
                             </label>
 
                             <label>
-                                <span>Nomor telphone</span>
-                                <input id="phone" name="phone" type="text" placeholder="Masukan nomor telephone" />
+                                <span>연락처</span>
+                                <input id="phone" name="phone" type="text" placeholder=010-0000-0000" />
                             </label>                            
 
                             <label>
-                                <span>E-mail</span>
-                                <input id="email" name="email" type="text" placeholder="Masukan email" />
+                                <span>이메일</span>
+                                <input id="email" name="email" type="text" placeholder="이메일 입력" />
                             </label>
 
                             <label>
-                                <span>Judul</span>
-                                <input id="title" name="title" type="text" placeholder="Masukan judul" />
+                                <span>제목</span>
+                                <input id="title" name="title" type="text" placeholder="제목 입력" />
                             </label>
 
                             <label>
-                                <span>Isi</span>
-                                <textarea id="content" name="content" placeholder="Masukan isi"></textarea>
+                                <span>내용</span>
+                                <textarea id="content" name="content" placeholder="내용 입력"></textarea>
                             </label>
-
-                            <!-- <div class="input-box">
-                                <span>lampiran</span>
-                                <div class="file-box">
-                                    <label for="file">Browse</label>
-                                    <input type="file" id="file">
-                                    <input type="text" class="upload-name" placeholder="file.pdf" readonly />
-                                </div>
-                            </div> -->
 
                             <label class="check-box">
                                 <input type="checkbox" class="checkbox-type1" />
-                                <em>Saya menyetujui pengumpulan dan penggunaan informasi pribadi.</em>
+                                <em>개인정보 수집 이용에 동의합니다.</em>
                             </label>
 
-                            <button type="submit">Kirim</button>
+                            <button type="submit">등록하기</button>
 
                         </form>
                         <iframe id="iframe1" name="iframe1" style="display:none"></iframe>
