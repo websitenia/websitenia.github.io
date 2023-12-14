@@ -105,6 +105,7 @@
     background-image: url(../img/contact-img01.png);
 }
 
+
 .bg-wrapper .text-box {
     width: 100%;
     position: absolute;
@@ -2316,9 +2317,6 @@
 /* ceo.html css end */
 
 /* people.html css start */
-#page-people .people-wrapper{
-    padding:100px 0px 0px;
-}
 
 #page-people .people-wrapper h3 {
     text-align: center;
@@ -2327,14 +2325,15 @@
 }
 
 #page-people .people-wrapper .member-box {
-    padding-bottom: 40px;
+    padding: 0 40px;
 }
 
 #page-people .people-wrapper .member-box::before {
     content: '';
     width: 100%;
-    height: calc(100% - 8%);
-    background: #FF7432;
+    height: 100%;
+    background: #F7F7F7;
+    /* background: #FF7432; */
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -2342,6 +2341,7 @@
 
 #page-people .people-wrapper .member-box .row {
     max-width: 1224px;
+    padding-top: 80px;
 }
 
 #page-people .people-wrapper .member-box .item {
@@ -2352,12 +2352,6 @@
 #page-people .people-wrapper .member-box .item img {
     display: block;
     margin-bottom: 8px;
-}
-
-#page-people .people-wrapper .member-box .item h4 {
-    font-size: 2.1em;
-    color: #fff;
-    margin-bottom: 6px;
 }
 
 #page-people .people-wrapper .member-box .item span {
@@ -2406,6 +2400,103 @@
 
 #page-people .people-wrapper .member-box .item-box.active .item:nth-child(10) {
     animation: text-effect2 1.5s 2.2s forwards;
+}
+
+#page-people .image_person {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+
+#page-people .image_person * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#page-people .image_person img {
+  max-width: 100%;
+  vertical-align: top;
+  box-shadow: 0px 1px 2px 0px rgba(22, 22, 22, 0.10), 0px 2px 2px 0px rgba(22, 22, 22, 0.09), 0px 5px 3px 0px rgba(22, 22, 22, 0.05), 0px 9px 4px 0px rgba(22, 22, 22, 0.01), 0px 14px 4px 0px rgba(22, 22, 22, 0.00);
+}
+
+#page-people .image_person figcaption {
+  top: 50%;
+  left: 40px;
+  right: 40px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+
+#page-people .image_person h2,
+#page-people .image_person h4 {
+  margin: 0;
+}
+
+#page-people .image_person h2 {
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#page-people .image_person h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    opacity: .7;;
+}
+
+#page-people .image_person:after {
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+
+#page-people .image_person a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#page-people .image_person:hover figcaption,
+#page-people .image_person.hover figcaption {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+#page-people .image_person:hover:after,
+#page-people .image_person.hover:after {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  opacity: 0.9;
 }
 
 @media screen and (max-width:1140px) {
