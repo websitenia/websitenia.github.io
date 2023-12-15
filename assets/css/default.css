@@ -27,6 +27,7 @@ button {
 }
 
 a {
+	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
@@ -172,9 +173,28 @@ textarea {
 	margin: auto;
 }
 
+.korean-lang a, 
+.korean-lang p, 
+.korean-lang span,
+.korean-lang th,
+.korean-lang select,
+.korean-lang input,
+.korean-lang button,
+.korean-lang h1,
+.korean-lang h2,
+.korean-lang h3,
+.korean-lang h4,
+.korean-lang h5,
+.korean-lang h6 {
+	font-family: 'Noto Serif KR', serif;
+}
 
 .font-notoserif {
 	font-family: 'Noto Serif KR', serif;
+}
+
+.font-roboto {
+	font-family: 'Roboto', sans-serif !important;
 }
 
 input.checkbox-type1 {
