@@ -480,6 +480,7 @@
     height: 100vh;
     padding: 0px 80px;
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -490,6 +491,7 @@
 }
 
 #page-main .tagline .flex-box .text-box em {
+    font-size: 36px;
     font-weight: 400;
 }
 
@@ -507,7 +509,7 @@
     margin-bottom: 32px;
     color: #444;
     font-size: 1.3em;
-    text-align: justify;
+    text-align: center;
     line-height: 1.6;
 }
 
@@ -1517,7 +1519,7 @@
 #page-introduction .vision-wrapper h4{
     max-width: 1017px;
     margin: 0px auto 60px;
-    font-size: 3.4em;
+    font-size: 32px;
 }
 
 #page-introduction .vision-wrapper ul{
@@ -1526,7 +1528,7 @@
 }
 
 #page-introduction .vision-wrapper ul li{
-    padding: 7px 0px 67px 133px;
+    padding: 0px 0px 67px 133px;
 }
 
 #page-introduction .vision-wrapper ul li::after{
@@ -1639,6 +1641,11 @@
     font-size: 20px;
     line-height: 1.4;
     text-align: justify;
+}
+
+#page-introduction .vision-wrapper .p-left {
+    margin: 0 auto;
+    padding-left: 6px;
 }
 
 #page-introduction .core-wrapper{
@@ -2206,7 +2213,7 @@
     margin-bottom: 50px;
     line-height: 1.4;
     color: #444;
-    text-align: justify;
+    text-align: center;
 }
 
 #page-ceo .section-wrapper .section .inner span em{
@@ -2638,7 +2645,7 @@
 }
 
 #page-office .office-wrapper h4{
-    font-size: 2.9em;
+    font-size: 2.7em;
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -2790,7 +2797,9 @@
 }
 
 #page-business .section-wrapper .section h4 {
-    font-size: 3.4em;
+    color: #006781;
+    font-size: 3em;
+    font-style: bold;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -2828,6 +2837,10 @@
     line-height: 1.3;
 }
 
+#page-business .section-wrapper .section ul li div .small-top {
+    margin-top: 0px;
+}
+
 #page-business .section-wrapper .section ul li div h5::after {
     content: '';
     display: block;
@@ -2844,6 +2857,10 @@
     line-height: 1.6;
     display: block;
     text-align: justify;
+}
+
+#page-business .section-wrapper .section ul li div .text-left {
+    text-align: left;
 }
 
 @media screen and (max-width:1460px){
@@ -3449,6 +3466,7 @@
     font-size: 1.4em;
     font-weight: 500;
     margin-bottom: 8px;
+    text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -3463,11 +3481,13 @@
     display: block;
     font-size: 1.15em;
     color:#FF7432;
+    text-align: center;
 }
 
 #page-media .info-wrapper .item-box .item .publisher {
     margin-bottom: 8px;
     color:#80838F;
+    text-align: center;
 }
 
 @media screen and (max-width:1140px) {
