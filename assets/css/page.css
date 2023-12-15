@@ -2205,6 +2205,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 500px;
 }
 
 #page-ceo .section-wrapper .section .inner span {
@@ -2407,6 +2408,18 @@
 
 #page-people .people-wrapper .member-box .item-box.active .item:nth-child(10) {
     animation: text-effect2 1.5s 2.2s forwards;
+}
+
+#page-people .people-wrapper .member-box .item-box.active .item:nth-child(11) {
+    animation: text-effect2 1.5s 2.4s forwards;
+}
+
+#page-people .people-wrapper .member-box .item-box.active .item:nth-child(12) {
+    animation: text-effect2 1.5s 2.6s forwards;
+}
+
+#page-people .people-wrapper .member-box .item-box.active .item:nth-child(13) {
+    animation: text-effect2 1.5s 2.8s forwards;
 }
 
 #page-people .image_person {
