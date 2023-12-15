@@ -172,10 +172,6 @@ textarea {
 	margin: auto;
 }
 
-.font-azo {
-	font-family: 'Roboto', sans-serif;
-	/*font-family: 'AzoSans', sans-serif;*/
-}
 
 .font-notoserif {
 	font-family: 'Noto Serif KR', serif;
@@ -205,61 +201,6 @@ input.checkbox-type1:checked {
 	background-size: cover;
 	border: none;
 }
-
-@font-face {
-	font-family: 'AzoSans';
-	font-weight: 300;
-	src: url('../font/AzoSans-Light.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'AzoSans';
-	font-weight: 400;
-	src: url('../font/AzoSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'AzoSans';
-	font-weight: 500;
-	src: url('../font/AzoSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'AzoSans';
-	font-weight: bold;
-	src: url('../font/AzoSans-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 300;
-	src: url('../font/Pretendard-Light.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 400;
-	src: url('../font/Pretendard-Regular.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 500;
-	src: url('../font/Pretendard-Medium.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 600;
-	src: url('../font/Pretendard-SemiBold.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: bold;
-	src: url('../font/Pretendard-Bold.otf') format('opentype');
-}
-
 
 @media screen and (max-width:780px) {
 	input.checkbox-type1 {
