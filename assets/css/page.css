@@ -1045,6 +1045,14 @@
         font-size: 1.15em;
     }
 
+    #page-main .video_compro {
+        height: 50vh;
+    }
+
+    #page-main .tagline .flex-box img {
+        height: 50vh;
+    }
+
     #page-main .sub-title {
         font-size: 1.15em;
         color: #FF7432;
@@ -1243,7 +1251,7 @@
 
     #page-main .tagline .flex-box img {
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         margin: 0 auto;
     }
 
@@ -1690,7 +1698,7 @@
 }
 
 #page-introduction .core-wrapper .flex-box{
-    width: 500px;
+    width: 100%;
     margin:auto;
     /*display: flex;*/
     align-items: center;
@@ -1713,7 +1721,7 @@
     width: 56px;
     height: 56px;
     color: #fff;
-    font-size: 3.4em;
+    font-size: 2em;
     font-weight: bold;
     border-radius: 50%;
     line-height: 56px;
@@ -1892,6 +1900,7 @@
         padding:80px 0px 100px;        
     }
     
+    
     #page-introduction .vision-wrapper h3{
         font-size: 3em;
          margin-bottom: 80px;
@@ -1900,6 +1909,11 @@
     #page-introduction .vision-wrapper h4{
         margin: 0px auto 50px;
         font-size: 3em;
+        text-align: center;
+    }
+
+    #page-introduction .vision-wrapper p{
+        text-align: center;
     }
     
     #page-introduction .vision-wrapper ul{
@@ -1912,6 +1926,10 @@
 
     #page-introduction .vision-wrapper ul li::after{
         left: 25px;
+    }
+
+    #page-introduction .vision-wrapper ul li div{
+        text-align: left;
     }
     
     #page-introduction .vision-wrapper ul li span{
@@ -2010,6 +2028,19 @@
     #page-introduction .line-wrapper p{
         font-size: 1.15em;
     }    
+
+    #page-introduction .our-history .year {
+        width: 50px;
+        font-size: 18px;
+    }
+
+    #page-introduction .our-history .month {
+        width: 100%;
+    }
+
+    #page-ceo .section-wrapper .section .inner h4 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:780px) {
@@ -2142,7 +2173,6 @@
         margin-right: 12px;
         width: 36px;
         height: 36px;
-        font-size: 1.15em;
         line-height: 36px;
     }
 
@@ -2700,6 +2730,16 @@
         margin-bottom: 30px;
     }
 
+    #page-office .office-wrapper .sld-box {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #page-office .office-wrapper .caption {
+        width: 100%;
+        padding: 0 20px;
+    }
+
     #page-office .office-wrapper .sld-box .owl-carousel{
         margin: 0px auto 30px;
     }    
@@ -2723,17 +2763,20 @@
 
     #page-office .office-wrapper span{
         font-size: 1em;
+        text-align: center;
         margin-bottom: 10px;
     }
     
     #page-office .office-wrapper h4{
         font-size: 2em;
+        text-align: center;
         margin-bottom: 20px;
         line-height: 1.4;
     }
     
     #page-office .office-wrapper p{
         font-size: 1.15em;
+        text-align: center;
     }
 }
 /* people.html css end */
@@ -3022,6 +3065,7 @@
 
     #page-business .section-wrapper .section ul li div span {
         font-size: 1.15em;
+        text-align: center;
     }
 }
 

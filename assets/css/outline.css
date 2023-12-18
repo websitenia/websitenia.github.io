@@ -149,9 +149,10 @@
 }
 
 #header-wrapper .lang-menu {
-    width: 180px !important;
+    width: 105px !important;
     top: 58px !important;
-    left: -40px !important;
+    left: -10px !important;
+    text-align: center;
 }
 
 #header-wrapper .lang-box .lang-btn {
@@ -201,6 +202,10 @@
 #header-wrapper .hidden-menu a {
     display: flex;
     align-items: center;
+}
+
+#header-wrapper .lang-menu li a {
+    justify-content: center;
 }
 
 #header-wrapper .hidden-menu img {
@@ -602,13 +607,14 @@
     #header-wrapper .mobile-menu .inner ul li .second-menu a:hover {
         color: #FF7432;
     }
+
+    #header-wrapper .btn_contact_us {
+        display: none;
+    }
 }
 
 /* --- Tablet --- */
 @media screen and (max-width:992px) {
-    #header-wrapper .btn_contact_us {
-        display: none;
-    }
 
     #footer-wrapper .row {
         width: calc(100% - 20px);
