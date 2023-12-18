@@ -493,12 +493,21 @@
         width: 75px;
     }
 
+    #header-wrapper .language {
+        margin-right: 0px;
+    }
+
+    #header-wrapper .lang-btn span {
+        padding-top: 3px;
+    }
+
     #header-wrapper .hambuger-menu.pc-ham {
         display: none;
     }
 
     #header-wrapper .hambuger-menu.mobile-ham {
         display: inline-block;
+        margin-top: 17px;
     }
 
     #header-wrapper .menu-box {
@@ -511,11 +520,11 @@
     }
 
     #header-wrapper .lang-menu {
-        top: 50px !important;
+        top: 48px !important;
     }
 
     #header-wrapper .lang-box .lang-btn {
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     #header-wrapper .hidden-menu {
@@ -597,6 +606,9 @@
 
 /* --- Tablet --- */
 @media screen and (max-width:992px) {
+    #header-wrapper .btn_contact_us {
+        display: none;
+    }
 
     #footer-wrapper .row {
         width: calc(100% - 20px);
