@@ -2422,6 +2422,10 @@
     animation: text-effect2 1.5s 2.8s forwards;
 }
 
+#page-people .people-wrapper .member-box .item-box.active .item:nth-child(14) {
+    animation: text-effect2 1.5s 3.0s forwards;
+}
+
 #page-people .image_person {
   position: relative;
   overflow: hidden;
