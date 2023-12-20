@@ -2376,6 +2376,10 @@
     z-index: -1;
 }
 
+#page-ceo .section-wrapper .section .mobile-only {
+    display: none;
+}
+
 @media screen and (max-width:1140px) {
     #page-ceo .section-wrapper {
         padding: 80px 0px 100px;
@@ -2388,6 +2392,10 @@
 
     #page-ceo .section-wrapper .section .inner {
         padding-left: 0px;
+    }
+
+    #page-ceo .section-wrapper .section .mobile-only {
+        display: block;
     }
 
     #page-ceo .section-wrapper .section .inner .ceo-img {
