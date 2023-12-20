@@ -3263,6 +3263,7 @@
 
     #page-business .section-wrapper .section .flex-box .text-box p {
         font-size: 1em;
+        text-align: left;
     }
 
     #page-business .section-wrapper .section h4 {
