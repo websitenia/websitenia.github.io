@@ -1241,12 +1241,12 @@
 @media screen and (max-width:992px) {
 
     #page-main .tagline .flex-box {
-        flex-direction: column-reverse;
+        flex-direction: column;
         height: auto;
     }
 
     #page-main .tagline .flex-box.left {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     #page-main .tagline .flex-box img {
