@@ -1,17 +1,40 @@
 /*  -----------------------
-    CSS Media Query < 780px 
+    CSS Media Query < 600px 
     ----------------------- */
 
-/* Header */
-#header-wrapper .lang-box .lang-btn {
-    display: none;
+/* --- Header --- */
+
+
+/* --- Footer --- */
+
+#footer-wrapper .location .icon-map {
+    width: 48px;
 }
 
-#header-wrapper .btn_contact_us {
-    display: none;
+#footer-wrapper .location .address {
+    float: left;
+    width: 78%;
 }
 
-/* Page Video */
+#footer-wrapper .sitemap li {
+    padding-right: 12px;
+}
+
+#footer-wrapper .social-media {
+    display: inline-block;
+}
+
+#footer-wrapper .social-media h4 {
+    display: block;
+    margin-bottom: 16px;
+}
+
+#footer-wrapper .social-media a {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+/* --- Page Video --- */
 
 #page-video .row {
     padding: 0 20px;
