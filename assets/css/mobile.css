@@ -1,8 +1,11 @@
 /*  -----------------------
-    CSS Media Query < 600px 
+    CSS Media Query 320px - 480px
     ----------------------- */
 
 /* --- Header --- */
+#header-wrapper .lang-box .lang-btn {
+    display: none;
+}
 
 
 /* --- Footer --- */
